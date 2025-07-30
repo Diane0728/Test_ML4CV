@@ -138,13 +138,13 @@ See [requirements.txt](requirements.txt) for complete dependency list.
 - COCO dataset contributors
 - Community feedback and contributions
 
-##🤝 Contributing
+## 🤝 Contributing
 
--To extend this project:
+To extend this project:
 
--Add new benchmarks: Modify src/benchmark_baseline.py
--Try different models: Change model path in scripts
--Test new optimizations: Create new scripts in src/
+1. **Add new benchmarks**: Modify `src/benchmark_baseline.py`
+2. **Try different models**: Change model path in scripts
+3. **Test new optimizations**: Create new scripts in `src/`
 
 ## 📞 Support
 
