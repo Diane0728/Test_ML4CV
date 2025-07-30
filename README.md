@@ -30,8 +30,8 @@ This project implements post-training dynamic quantization for Vision-Language M
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/vlm-quantization-benchmark.git
-cd vlm-quantization-benchmark
+git clone https://github.com/Diane0728/Test_ML4CV.git
+cd Test_ML4CV
 
 # Install dependencies
 pip install -r requirements.txt
@@ -46,7 +46,7 @@ See [Quick Start Guide](QUICKSTART.md) for detailed setup instructions.
 ## 📁 Project Structure
 
 ```
-vlm-quantization-benchmark/
+Test_ML4CV/
 ├── quantization.py         # Main quantization implementation
 ├── benchmark.py           # Performance benchmarking suite
 ├── utils/                 # Utility modules
@@ -109,7 +109,7 @@ results = benchmarker.run_full_benchmark(
 
 ## 📋 Requirements
 
-- Python 3.8+
+- Python 3.9+
 - PyTorch 2.0+
 - Transformers 4.40.0+
 - CUDA (optional, for GPU acceleration)
