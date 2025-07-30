@@ -162,6 +162,10 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 python benchmark.py --use-synthetic-data --num-samples 10
 ```
 
+#### 4. CUDA=FALSE
+- In Google Colab→ Runtime→ Change runtime tools→ GPU T4
+- Restart session again
+  
 ### Verification Steps
 
 #### 1. Test Installation
