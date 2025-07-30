@@ -6,23 +6,23 @@ Get up and running with VLM quantization in under 5 minutes!
 
 ### Option 1: Standard Installation
 ```bash
-git clone https://github.com/your-username/vlm-quantization-benchmark.git
-cd vlm-quantization-benchmark
+git clone https://github.com/Diane0728/Test_ML4CV.git
+cd Test_ML4CV
 pip install -r requirements.txt
 ```
 
 ### Option 2: Development Installation
 ```bash
-git clone https://github.com/your-username/vlm-quantization-benchmark.git
-cd vlm-quantization-benchmark
+git clone https://github.com/Diane0728/Test_ML4CV.git
+cd Test_ML4CV
 pip install -e .
 pip install -r requirements.txt
 ```
 
 ### Option 3: Google Colab
 ```python
-!git clone https://github.com/your-username/vlm-quantization-benchmark.git
-%cd vlm-quantization-benchmark
+!git clone https://github.com/Diane0728/Test_ML4CV.git
+%cd Test_ML4CV
 !pip install -r requirements.txt
 ```
 
@@ -206,7 +206,7 @@ python benchmark.py --num-beams 4 --max-length 50
 ## 📁 Directory Structure After Setup
 
 ```
-vlm-quantization-benchmark/
+Test_ML4CV/
 ├── models/                    # Downloaded/quantized models
 │   ├── blip_quantized.pth
 │   └── model_info.json
