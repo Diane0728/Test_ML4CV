@@ -130,19 +130,6 @@ See [requirements.txt](requirements.txt) for complete dependency list.
 - **[Technical Report](REPORT.md)**: Detailed performance analysis
 - **[API Documentation](docs/)**: Complete function reference
 
-## 🤝 Contributing
-
-Contributions are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -151,12 +138,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - COCO dataset contributors
 - Community feedback and contributions
 
+##🤝 Contributing
+
+-To extend this project:
+
+-Add new benchmarks: Modify src/benchmark_baseline.py
+-Try different models: Change model path in scripts
+-Test new optimizations: Create new scripts in src/
+
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/vlm-quantization-benchmark/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/vlm-quantization-benchmark/discussions)
-- **Email**: your-email@example.com
+For questions about this implementation, refer to the course materials or the original FastVLM repository.
 
----
-
-⭐ **Star this repository if it helps your research or projects!**
+Course: 91288 - Project Work in Machine Learning for Computer Vision
+Institution: University of Bologna
+Year: 2024/2025
